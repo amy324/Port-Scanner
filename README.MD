@@ -74,9 +74,9 @@ Port 445 is available
 
 - In home networks, this IP address is frequently assigned to the router provided by the Internet Service Provider (ISP). The router typically handles tasks such as routing network traffic between the local network and the internet, providing network address translation (NAT) services, and assigning IP addresses to devices on the local network using DHCP (Dynamic Host Configuration Protocol).
 
-- However, it's important to note that the specific usage of the IP address `192.168.0.1` can vary depending on the network configuration. While it's commonly used as a default gateway address, it's not a fixed standard, and other IP addresses within the private IP address range (`192.168.0.0` to `192.168.255.255`) may also be used for similar purposes. Additionally, in some cases, this IP address may be assigned to other network devices or have other functions within the network infrastructure.
+- However, it's important to note that the specific usage of the IP address `192.168.0.1` can vary depending on the network configuration. While it's commonly used as a default gateway address, it's not a fixed standard, and other IP addresses within the private IP address range (`192.168.0.0` to `192.168.255.255`) may also be used for similar purposes. In some cases, this IP address may be assigned to other network devices or have other functions within the network infrastructure.
 
-- Please bear in mind that testing the port scanning application with the IP address `192.168.0.1` may not yield meaningful results in all cases. The availability of ports on this IP address depends on the specific configuration of the network and the devices connected to it. It's recommended that users replace this generic IP address with the actual target IP address they want to scan.
+- Please bear in mind that testing the port scanning application with the IP address `192.168.0.1` may not yield meaningful results in all cases. The availability of ports on this IP address depends on the specific configuration of the network and the devices connected to it. It's recommended that users replace this generic IP address with the actual target IP address they want to scan. Remember to use either your own IP address or that of someone who has given you explicit permission for the `[target_ip_address]` when running the port scanning application.
 
 **Finding Your Own IP Address**
 
@@ -87,7 +87,7 @@ To find your own IP address:
   - Open the Terminal and type `ifconfig` or `ip addr`. Look for the IP address associated with the network interface you're using.
 - Alternatively, you can use online services or network configuration tools provided by your operating system or router to find your IP address.
 
-Remember to use either your own IP address or that of someone who has given you explicit permission for the `[target_ip_address]` when running the port scanning application.
+
 
 
 
